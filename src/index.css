@@ -1,0 +1,39 @@
+@import 'tailwindcss';
+
+.container {
+  width: 90%;      /* responsive width */
+  padding: 2rem;   /* responsive padding */
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+.opacity-100 {
+  opacity: 1;
+}
+
+html, body {
+  overflow: hidden; 
+}
+
+.blue-scrollbar::-webkit-scrollbar {
+  width: 10px;
+}
+
+.blue-scrollbar::-webkit-scrollbar-track {
+  background: black;
+}
+
+.blue-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #38bdf8;
+  border-radius: 9999px;
+}
+
+.blue-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #0ea5e9; 
+}
+
+.blue-scrollbar {
+  scrollbar-width:thin;
+  scrollbar-color: #38bdf8 black;
+}
