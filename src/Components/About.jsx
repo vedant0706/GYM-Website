@@ -38,7 +38,7 @@ const About = () => {
           <div className="w-full sm:w-80 max-w-sm hover:border-sky-400 hover:scale-105 border border-[#1d1d1d] flex justify-center rounded-2xl transition-transform duration-200">
             <div className="bg-black text-white rounded-2xl overflow-hidden">
               <img
-                src="/p-1.jpg"
+                src="/public/p-1.jpg"
                 alt="Goal Achievement"
                 className="w-full h-64 object-cover"
               />
@@ -58,7 +58,7 @@ const About = () => {
           <div className="w-full sm:w-80 max-w-sm hover:border-sky-400 hover:scale-105 border border-[#1d1d1d] flex justify-center rounded-2xl transition-transform duration-200">
             <div className="bg-black text-white rounded-2xl overflow-hidden">
               <img
-                src="/p-2.jpg"
+                src="/public/p-2.jpg"
                 alt="Professional Trainers"
                 className="w-full h-64 object-cover"
               />
@@ -77,7 +77,7 @@ const About = () => {
           <div className="w-full sm:w-80 max-w-sm hover:border-sky-400 hover:scale-105 border border-[#1d1d1d] flex justify-center rounded-2xl transition-transform duration-200">
             <div className="bg-black text-white rounded-2xl overflow-hidden">
               <img
-                src="/p-3.jpg"
+                src="/public/p-3.jpg"
                 alt="Cardio Equipment"
                 className="w-full h-64 object-cover"
               />
@@ -96,7 +96,7 @@ const About = () => {
           <div className="w-full sm:w-80 max-w-sm hover:border-sky-400 hover:scale-105 border border-[#1d1d1d] flex justify-center rounded-2xl transition-transform duration-200">
             <div className="bg-black text-white rounded-2xl overflow-hidden">
               <img
-                src="/p-04.jpg"
+                src="/public/p-04.jpg"
                 alt="Steam Bath"
                 className="w-full h-64 object-cover"
               />
