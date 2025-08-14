@@ -22,25 +22,25 @@ const About1 = () => {
   <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 text-center">
     
     <div className="flex flex-col items-center justify-center p-4">
-      <img src="/public/people-group-solid-full.svg" alt="members" className="w-12 h-12 mb-2"/>
+      <img src="/people-group-solid-full.svg" alt="members" className="w-12 h-12 mb-2"/>
       <h3 className="text-2xl text-white sm:text-3xl md:text-[30px] font-bold">500+</h3>
       <p className="text-gray-400 text-sm sm:text-lg">Happy Members</p>
     </div>
 
     <div className="flex flex-col items-center justify-center p-4">
-      <img src="/public/clock-solid-full.svg" alt="experience" className="w-12 h-12 mb-2"/>
+      <img src="/clock-solid-full.svg" alt="experience" className="w-12 h-12 mb-2"/>
       <h3 className="text-2xl text-white sm:text-3xl md:text-[30px] font-bold">10+</h3>
       <p className="text-gray-400 text-sm sm:text-lg">Years Experience</p>
     </div>
 
     <div className="flex flex-col items-center justify-center p-4">
-      <img src="/public/bullseye-solid-full.svg" alt="goals" className="w-12 h-12 mb-2"/>
+      <img src="/bullseye-solid-full.svg" alt="goals" className="w-12 h-12 mb-2"/>
       <h3 className="text-2xl text-white sm:text-3xl md:text-[30px] font-bold">1000+</h3>
       <p className="text-gray-400 text-sm sm:text-lg">Goals Achieved</p>
     </div>
 
     <div className="flex flex-col items-center justify-center p-4">
-      <img src="/public/trophy-solid-full.svg" alt="awards" className="w-12 h-12 mb-2"/>
+      <img src="/trophy-solid-full.svg" alt="awards" className="w-12 h-12 mb-2"/>
       <h3 className="text-2xl text-white sm:text-3xl md:text-[30px] font-bold">15+</h3>
       <p className="text-gray-400 text-sm sm:text-lg">Awards Won</p>
     </div>
@@ -69,7 +69,7 @@ const About1 = () => {
 
           {/* Image */}
           <div className="flex-1">
-            <img src="/public/GYM-bg.png" alt="Gym-Background" className="rounded-2xl border border-gray-800 w-full max-w-md mx-auto"/>
+            <img src="/GYM-bg.png" alt="Gym-Background" className="rounded-2xl border border-gray-800 w-full max-w-md mx-auto"/>
           </div>
         </div>
       </div>

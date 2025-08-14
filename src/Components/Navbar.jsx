@@ -12,7 +12,7 @@ const Navbar = () => {
           <div className="flex items-center space-x-3">
             <a href="#" target="_blank">
               <img
-                src="/public/dumbbell-solid-full.svg"
+                src="/dumbbell-solid-full.svg"
                 alt="Dumbell"
                 className="bg-sky-400 w-15 rounded-md p-2"
               />
@@ -78,16 +78,16 @@ const Navbar = () => {
             {/* Social Icons */}
             <div className="flex flex-row space-x-3 mt-2 md:mt-0 justify-center md:justify-start">
               <a href="https://www.instagram.com/" target="_blank">
-                <img src="/public/instagram-brands-solid-full.svg" alt="Instagram" className="w-15 h-15 hover:bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 rounded-full p-1" />
+                <img src="/instagram-brands-solid-full.svg" alt="Instagram" className="w-15 h-15 hover:bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 rounded-full p-1" />
               </a>
               <a href="https://www.facebook.com/" target="_blank">
-                <img src="/public/facebook-brands-solid-full.svg" alt="Facebook" className="w-15 h-15 hover:bg-sky-400 rounded-full p-1" />
+                <img src="/facebook-brands-solid-full.svg" alt="Facebook" className="w-15 h-15 hover:bg-sky-400 rounded-full p-1" />
               </a>
               <a href="https://x.com/" target="_blank">
-                <img src="/public/x-twitter-brands-solid-full.svg" alt="Twitter" className="w-15 h-15 hover:bg-gray-900 rounded-full p-1" />
+                <img src="/x-twitter-brands-solid-full.svg" alt="Twitter" className="w-15 h-15 hover:bg-gray-900 rounded-full p-1" />
               </a>
               <a href="https://www.youtube.com/" target="_blank">
-                <img src="/public/youtube-brands-solid-full.svg" alt="YouTube" className="w-15 h-15 hover:bg-red-600 rounded-full p-1" />
+                <img src="/youtube-brands-solid-full.svg" alt="YouTube" className="w-15 h-15 hover:bg-red-600 rounded-full p-1" />
               </a>
             </div>
           </div>

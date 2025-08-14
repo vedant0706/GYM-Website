@@ -44,22 +44,22 @@ const ContactInfo = () => {
         <div className="flex space-x-4 mt-6">
            <div className="flex flex-row gap-3">
              <a href="https://www.instagram.com/" target="_blank" className="">
-              <img src="/public/instagram-brands-solid-full.svg" alt="Instagram"
+              <img src="/instagram-brands-solid-full.svg" alt="Instagram"
                 className="text-white bg-transparent rounded-full  border-solid w-12 p-1 hover:bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600" />
             </a>
 
             <a href="https://www.facebook.com/" target="_blank" className="">
-              <img src="/public/facebook-brands-solid-full.svg" alt="Instagram"
+              <img src="/facebook-brands-solid-full.svg" alt="Instagram"
                 className="text-white bg-transparent rounded-full  border-solid w-12 p-1 hover:bg-sky-400" />
             </a>
 
             <a href="https://x.com/" target="_blank" className="">
-              <img src="/public/x-twitter-brands-solid-full.svg" alt="Instagram"
+              <img src="/x-twitter-brands-solid-full.svg" alt="Instagram"
                 className="text-white bg-transparent rounded-full  border-solid w-12  p-1 hover:bg-gray-900" />
             </a>
 
             <a href="https://www.youtube.com/" target="_blank" className="">
-              <img src="/public/youtube-brands-solid-full.svg" alt="Instagram"
+              <img src="/youtube-brands-solid-full.svg" alt="Instagram"
                 className="bg-transparent rounded-full  border-solid w-12  p-1 hover:bg-red-600" />
             </a>
           </div>

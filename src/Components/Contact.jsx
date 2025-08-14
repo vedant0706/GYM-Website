@@ -20,7 +20,7 @@ const Contact = () => {
         <div className="flex flex-col items-center md:items-start md:w-1/4 text-center md:text-left">
           <div className="flex items-center gap-3">
             <a href="/home">
-              <img src="/public/dumbbell-solid-full.svg" alt="Dumbell" className="w-16 md:w-20 p-2 bg-sky-400 rounded-md" />
+              <img src="/dumbbell-solid-full.svg" alt="Dumbell" className="w-16 md:w-20 p-2 bg-sky-400 rounded-md" />
             </a>
             <span className="text-2xl md:text-4xl font-bold">SP Fitness World</span>
           </div>
@@ -56,17 +56,17 @@ const Contact = () => {
           <h3 className="font-semibold text-lg md:text-xl mb-3">Get in Touch</h3>
 
           <div className="flex items-center gap-2 mb-2 justify-center md:justify-start">
-            <img src="/public/phone-solid-full.svg" alt="Phone" className="w-6 h-6" />
+            <img src="/phone-solid-full.svg" alt="Phone" className="w-6 h-6" />
             <span className="text-gray-400 cursor-pointer hover:text-sky-400 font-semibold"><CopyContext /></span>
           </div>
 
           <div className="flex items-center gap-2 mb-2 justify-center md:justify-start">
-            <img src="/public/envelope-solid-full.svg" alt="Email" className="w-6 h-6" />
+            <img src="/envelope-solid-full.svg" alt="Email" className="w-6 h-6" />
             <span className="text-gray-400 cursor-pointer hover:text-sky-400 font-semibold"><CopyContextMail /></span>
           </div>
 
           <div className="flex items-center gap-2 mb-1 justify-center md:justify-start">
-            <img src="/public/location-dot-solid-full.svg" alt="Location" className="w-6 h-6" />
+            <img src="/location-dot-solid-full.svg" alt="Location" className="w-6 h-6" />
             <span className="text-gray-400">Sarnaik Nagar, Padali - Balinga Road,</span>
           </div>
           <span className="text-gray-400 block px-4 md:px-0">Padali Khurd, Kolhapur.</span>
@@ -91,16 +91,16 @@ const Contact = () => {
           </p>
           <div className="flex gap-4">
             <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
-              <img src="/public/instagram-brands-solid-full.svg" alt="Instagram" className="w-15 h-15 p-1 rounded-full hover:bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600" />
+              <img src="/instagram-brands-solid-full.svg" alt="Instagram" className="w-15 h-15 p-1 rounded-full hover:bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600" />
             </a>
             <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
-              <img src="/public/facebook-brands-solid-full.svg" alt="Facebook" className="w-15 h-15 p-1 rounded-full hover:bg-sky-400" />
+              <img src="/facebook-brands-solid-full.svg" alt="Facebook" className="w-15 h-15 p-1 rounded-full hover:bg-sky-400" />
             </a>
             <a href="https://x.com/" target="_blank" rel="noopener noreferrer">
-              <img src="/public/x-twitter-brands-solid-full.svg" alt="X" className="w-15 h-15 p-1 rounded-full hover:bg-gray-900" />
+              <img src="/x-twitter-brands-solid-full.svg" alt="X" className="w-15 h-15 p-1 rounded-full hover:bg-gray-900" />
             </a>
             <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
-              <img src="/public/youtube-brands-solid-full.svg" alt="YouTube" className="w-15 h-15 p-1 rounded-full hover:bg-red-600" />
+              <img src="/youtube-brands-solid-full.svg" alt="YouTube" className="w-15 h-15 p-1 rounded-full hover:bg-red-600" />
             </a>
           </div>
         </div>
