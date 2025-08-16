@@ -17,27 +17,27 @@ const Home2 = () => {
 
       {/* 🪟 Modal */}
       {isOpen && (
-        <div className="fixed inset-0 bg-black bg-opacity-70 z-50 flex justify-center items-center">
-          <div className="relative w-[90%] max-w-3xl h-[60vh] bg-black shadow-lg rounded">
-            {/* ❌ Close Button */}
-            <button
-              onClick={handleClose}
-              className="absolute top-2 right-2 text-white text-2xl font-bold"
-            >
-              &times;
-            </button>
+          <div className="fixed inset-0 bg-black/80 z-50 flex justify-center py-80">
+      <div className="relative w-full max-w-3xl h-[60vh] sm:h-[70vh] md:h-[80vh] bg-black shadow-lg rounded-lg overflow-hidden">
+        {/* ❌ Close Button */}
+        <button
+          onClick={handleClose}
+          className="absolute top-2 right-3 text-red-500 cursor-pointer text-4xl font-bold z-10"
+        >
+          &times;
+        </button>
 
-            {/* 📺 YouTube Video */}
-            <iframe
-              className="w-full h-full rounded"
-              src="https://www.youtube.com/embed/bVce0qSREK8?autoplay=1"
-              title="YouTube video player"
-              frameBorder="0"
-              allow="autoplay; encrypted-media"
-              allowFullScreen
-            ></iframe>
-          </div>
-        </div>
+        {/* 📺 YouTube Video */}
+        <iframe
+          className="w-full h-full border-1 p-10 border-gray-900"
+          src="https://www.youtube.com/embed/bVce0qSREK8?autoplay=1"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="autoplay; encrypted-media"
+          allowFullScreen
+        ></iframe>
+      </div>
+    </div>
       )}
     </>
   );
