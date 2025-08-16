@@ -127,7 +127,7 @@ export default function BMI() {
           <div className="bg-[linear-gradient(145deg,_#000000,_#1a1a1a,_#33333333,_#000000)] rounded-xl p-6">
             <h4 className="font-bold mb-2 flex justify-center items-center gap-2">
               <img src="/heart-regular-full.svg" alt="Heart" className="h-6 w-6 sm:h-7 sm:w-7" />
-              Weight Status Categories
+              <span className="text-white">Weight Status Categories</span>
             </h4>
             <ul className="text-sm sm:text-base space-y-1 text-white">
               <li className="text-blue-400">Underweight <span className="text-white">- Below 18.5</span></li>

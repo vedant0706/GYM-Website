@@ -18,7 +18,7 @@ const Navbar = () => {
               />
             </a>
             <Link
-              to="/home"
+              to="/"
               className="text-4xl font-bold hover:text-sky-400"
             >
               SP Fitness World

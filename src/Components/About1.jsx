@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 const About1 = () => {
   return (
@@ -63,7 +64,7 @@ const About1 = () => {
               Our journey has been driven by the belief that fitness is not just about physical transformation, but about building confidence, discipline, and a healthier lifestyle. We've witnessed countless success stories and continue to be inspired by our members' achievements.
             </p>
             <div className="bg-sky-400 mt-7 h-10 w-40 sm:w-48 flex items-center justify-center rounded-2xl font-bold cursor-pointer hover:scale-110">
-              <a href="/contact">Contact Us</a>
+              <Link to="/contact">Contact Us</Link>
             </div>
           </div>
 

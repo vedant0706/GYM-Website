@@ -21,8 +21,9 @@ const Contact = () => {
           <div className="flex items-center gap-3">
             <a href="/home">
               <img src="/dumbbell-solid-full.svg" alt="Dumbell" className="w-16 md:w-20 p-2 bg-sky-400 rounded-md" />
-            </a>
-            <span className="text-2xl md:text-4xl font-bold">SP Fitness World</span>
+             </a>
+            <span className="text-2xl md:text-4xl font-bold hover:text-sky-400">SP Fitness World</span>
+           
           </div>
           <p className="mt-4 text-gray-400 text-sm md:text-base leading-relaxed">
             Transform your body and mind with our state-of-the-art equipment, professional trainers, and personalized programs designed for your success.
