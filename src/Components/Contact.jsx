@@ -19,9 +19,9 @@ const Contact = () => {
         {/* Logo & Description */}
         <div className="flex flex-col items-center md:items-start md:w-1/4 text-center md:text-left">
           <div className="flex items-center gap-3">
-            <a href="/home">
+            <Link to="/">
               <img src="/dumbbell-solid-full.svg" alt="Dumbell" className="w-16 md:w-20 p-2 bg-sky-400 rounded-md" />
-             </a>
+             </Link>
             <span className="text-2xl md:text-4xl font-bold hover:text-sky-400">SP Fitness World</span>
            
           </div>

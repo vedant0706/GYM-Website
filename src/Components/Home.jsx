@@ -42,7 +42,7 @@ const Home = () => {
                     {/* Contact Info */}
                     <div className="flex flex-row items-center text-xl sm:text-xl font-bold text-sky-400 gap-2 mb-6">
                         <img src="/phone-solid-full.svg" alt="Phone" className="w-5 h-5 sm:w-7 sm:h-7" />
-                        +91 9326228186
+                        +91 8080562314
                     </div>
 
                     {/* Stats Card */}
