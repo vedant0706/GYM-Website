@@ -18,7 +18,7 @@ export default function Navbar() {
           className="text-2xl md:text-4xl flex flex-row items-center font-bold gap-2 md:gap-3 hover:text-sky-400 cursor-pointer"
         >
           <img
-            src="/public/dumbbell-solid-full.svg"
+            src="/dumbbell-solid-full.svg"
             className="w-8 h-8 md:w-10 md:h-10 bg-sky-400 p-1 rounded-lg"
             alt=""
           />
@@ -44,7 +44,7 @@ export default function Navbar() {
           {/* Brand Text */}
           <div className="text-2xl md:text-4xl flex flex-row items-center gap-2 md:gap-3 font-extrabold text-white">
             <img
-              src="/public/dumbbell-solid-full.svg"
+              src="/dumbbell-solid-full.svg"
               className="w-10 h-10 md:w-14 md:h-14 bg-sky-400 rounded-full p-1"
               alt=""
             />
@@ -56,7 +56,7 @@ export default function Navbar() {
             <div className="cursor-pointer">
               <h3 className="font-bold text-white flex items-center gap-2">
                 <img
-                  src="/public/phone-solid-full.svg"
+                  src="/phone-solid-full.svg"
                   className="w-8 h-8 md:w-10 md:h-10 rounded-full p-1 hover:bg-white"
                   alt=""
                 />{" "}
@@ -70,7 +70,7 @@ export default function Navbar() {
             <div>
               <h3 className="font-bold text-white flex items-center gap-2">
                 <img
-                  src="/public/location-dot-solid-full.svg"
+                  src="/location-dot-solid-full.svg"
                   className="w-8 h-8 md:w-10 md:h-10 rounded-full p-1 hover:bg-white"
                   alt=""
                 />{" "}
@@ -92,7 +92,7 @@ export default function Navbar() {
               className="bg-[#0f172a] border flex gap-2 items-center text-white hover:text-black border-blue-400 px-3 py-1 rounded-full text-sm md:text-base font-bold hover:bg-blue-600 hover:border-white"
             >
               <img
-                src="/public/facebook-brands-solid-full.svg"
+                src="/facebook-brands-solid-full.svg"
                 className="w-5 h-5 md:w-6 md:h-6"
                 alt=""
               />
@@ -103,7 +103,7 @@ export default function Navbar() {
               className="bg-[#0f172a] border flex gap-2 items-center text-white hover:text-black border-blue-400 px-3 py-1 rounded-full text-sm md:text-base font-bold hover:bg-gray-700 hover:border-white"
             >
               <img
-                src="/public/x-twitter-brands-solid-full.svg"
+                src="/x-twitter-brands-solid-full.svg"
                 className="w-5 h-5 md:w-6 md:h-6"
                 alt=""
               />
@@ -114,7 +114,7 @@ export default function Navbar() {
               className="bg-[#0f172a] border flex gap-2 items-center text-white hover:text-black border-blue-400 px-3 py-1 rounded-full text-sm md:text-base font-bold hover:bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 hover:border-white"
             >
               <img
-                src="/public/instagram-brands-solid-full.svg"
+                src="/instagram-brands-solid-full.svg"
                 className="w-5 h-5 md:w-6 md:h-6"
                 alt=""
               />
@@ -125,7 +125,7 @@ export default function Navbar() {
               className="bg-[#0f172a] border flex gap-2 items-center text-white hover:text-black border-blue-400 px-3 py-1 rounded-full text-sm md:text-base font-bold hover:bg-red-600 hover:border-white"
             >
               <img
-                src="/public/youtube-brands-solid-full.svg"
+                src="/youtube-brands-solid-full.svg"
                 className="w-5 h-5 md:w-6 md:h-6"
                 alt=""
               />
